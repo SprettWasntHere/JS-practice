@@ -22,5 +22,4 @@ while (true) {
     } else {
         prompt(`You lost. You guessed ${answer} but it was ${randomChoice.toLowerCase()}. :( Press ENTER to play again!`)
     };
-    continue;
 };
