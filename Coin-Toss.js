@@ -24,6 +24,3 @@ while (true) {
     };
     continue;
 };
-
-
-GameLoop();
