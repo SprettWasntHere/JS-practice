@@ -18,9 +18,9 @@ while (true) {
     };
     
     if (answer.toUpperCase() == randomChoice) {
-        prompt("You win! You guessed ${answer} and it was CORRECT! :D Press ENTER to play again!")
+        prompt('You win! You guessed ${answer} and it was CORRECT! :D Press ENTER to play again!')
     } else {
-        prompt("You lost. You guessed ${answer} but it was " + randomChoice.toLowerCase() + ". :( Press ENTER to play again!")
+        prompt('You lost. You guessed ${answer} but it was ${randomChoice.toLowerCase()}. :( Press ENTER to play again!')
     };
     continue;
 };
