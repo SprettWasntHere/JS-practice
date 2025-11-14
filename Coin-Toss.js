@@ -1,7 +1,7 @@
 const prompt = require("prompt-sync")();
 const coinSides = ["HEADS", "TAILS"];
 
-while true {
+while (true) {
     console.clear();
     
     let randomChoice = coinSides[Math.floor(Math.random() * 2)];
