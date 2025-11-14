@@ -1,11 +1,6 @@
 const prompt = require("prompt-sync")();
 let RPS = ['Rock', 'Paper', 'Scissors'];
 
-function capFirstLetter(string){
-    string.toLowerCase()
-    string.charAt(0).toUpperCase()
-}
-
 function Game() {
     console.clear();
 
